@@ -68,7 +68,7 @@ button {
 }
 
 .btn_shadow:hover {
-  background-color: #ff014f;
+  background: #ff014f;
   color: white;
   transform: translateY(-10px);
 }
