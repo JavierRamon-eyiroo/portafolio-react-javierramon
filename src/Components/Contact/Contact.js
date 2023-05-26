@@ -37,8 +37,8 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h4>CONTACTO.</h4>
+            <h1>Sera un gusto conversar.</h1>
           </div>
 
           <div className='content d_flex'>
@@ -48,12 +48,12 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <h1>Ecuador - Cuenca</h1>
+                  <p>Director de Operaciones.</p>
+                  <p>Estoy disponible para el trabajo independiente. Conéctate conmigo a través de mi cuenta.</p> <br />
+                  <p>Celular: (+593)0988189017</p>
+                  <p>Correo: javier.ramon@eyiroo.com</p> <br />
+                  <span>Mis redes sociales.</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
                       <i className='fab fa-facebook-f'></i>
@@ -73,28 +73,28 @@ const Contact = () => {
               <form onSubmit={formSubmit}>
                 <div className='f_flex'>
                   <div className='input row'>
-                    <span>YOUR NAME</span>
+                    <span>Nombres.</span>
                     <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
                   </div>
                   <div className='input row'>
-                    <span>PHONE NUMBER </span>
+                    <span>Telefono. </span>
                     <input type='number' name='phone' value={data.phone} onChange={InputEvent} />
                   </div>
                 </div>
                 <div className='input'>
-                  <span>EMAIL </span>
+                  <span>Correo electronico. </span>
                   <input type='email' name='email' value={data.email} onChange={InputEvent} />
                 </div>
                 <div className='input'>
-                  <span>SUBJECT </span>
+                  <span>Asunto. </span>
                   <input type='text' name='subject' value={data.subject} onChange={InputEvent} />
                 </div>
                 <div className='input'>
-                  <span>YOUR MESSAGE </span>
+                  <span>Tu mensaje. </span>
                   <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
                 </div>
                 <button className='btn_shadow'>
-                  SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
+                  ENVIAR MENSAJE. <i className='fa fa-long-arrow-right'></i>
                 </button>
               </form>
             </div>

@@ -12,22 +12,22 @@ const Home = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top'>
           <div className='left top'>
-            <h3>WELCOME TO MY WORLD</h3>
+            <h3>Bienvenido a mi mundo.</h3>
             <h1>
-              Hi, I’m <span>Jone Lee</span>
+              Soy <span>Javier Ramón.</span>
             </h1>
             <h2>
-              a
+              un
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Frontend Developer.", " Ing Electromecánico."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p>Me dedico a diseñar, crear y mantener plataformas web, proporcionando al cliente un portal online coherente y facil de usar. Ademas soy un apasionado por la Industria 4.0.</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
-                <h4>FIND WITH ME</h4>
+                <h4>REDES SOCIALES.</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
                     <i class='fab fa-facebook-f'></i>
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
               </div>
               <div className='col_1'>
-                <h4>BEST SKILL ON</h4>
+                <h4>DESCARGAR CV.</h4>
                 <button className='btn_shadow'>
                   <img src={skill1} alt='' />
                 </button>

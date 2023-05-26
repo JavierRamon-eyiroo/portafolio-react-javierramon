@@ -22,28 +22,28 @@ const Header = () => {
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
               {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
               <li>
-                <a href='#home'>home</a>
+                <a href='#home'>Home</a>
               </li>
               <li>
-                <a href='#features'>features</a>
+                <a href='#features'>Servicios</a>
               </li>
               <li>
-                <a href='#portfolio'>portfolio</a>
+                <a href='#portfolio'>Portafolio</a>
               </li>
               <li>
-                <a href='#resume'>resume</a>
+                <a href='#resume'>Resumen</a>
               </li>
               <li>
-                <a href='#clients'>clients</a>
+                <a href='#clients'>Clientes</a>
               </li>
               <li>
-                <a href='#blog'>blog</a>
+                <a href='#blog'>Blog</a>
               </li>
               <li>
-                <a href='#contact'>contact</a>
+                <a href='#contact'>Contacto</a>
               </li>
               <li>
-                <button className='home-btn'>BUY NOW</button>
+                <button className='home-btn'>EMPEZAR</button>
               </li>
             </ul>
 

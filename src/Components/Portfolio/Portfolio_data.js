@@ -1,10 +1,10 @@
 const Portfolio_data = [
   {
     id: 1,
-    category: "DEVELOPMENT",
+    category: "DESARROLLO WEB",
     totalLike: "600",
-    title: "The services provide for design ",
-    image: "./image/portfolio-01.jpg",
+    title: "Website - CACTUX ",
+    image: "./portfolio-01.jpg",
   },
   {
     id: 2,

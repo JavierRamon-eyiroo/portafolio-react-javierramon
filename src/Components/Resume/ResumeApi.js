@@ -2,10 +2,10 @@ const ResumeApi = [
   {
     id: 1,
     category: "education",
-    year: "University of DVI (1997 - 2001)",
-    title: "Personal Portfolio April Fools",
-    desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.30/5",
+    year: "Universidad Nacional de Loja (2010 - 2016)",
+    title: "Ingeniero Electromecánico.",
+    desc: "Especializado en el diseño y puesta en marcha de sistemas electricos y de automatizacion para las industrias.",
+    rate: "4.70/5",
   },
   {
     id: 2,
