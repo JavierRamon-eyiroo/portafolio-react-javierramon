@@ -23,7 +23,9 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>Me dedico a diseñar, crear y mantener plataformas web, proporcionando al cliente un portal online coherente y facil de usar. Ademas soy un apasionado por la Industria 4.0.</p>
+            <p>¿Buscas una plataforma web que eleve tu negocio al siguiente nivel? Estoy aquí para ayudarte a convertir tus ideas en realidad. Desde el diseño hasta el desarrollo y más allá, me comprometo a ofrecer un servicio personalizado y resultados sobresalientes</p>
+
+            <p>¡Espero tener la oportunidad de colaborar contigo y llevar tu presencia en línea a nuevas alturas! Juntos, podemos construir un futuro digital brillante y exitoso."</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
