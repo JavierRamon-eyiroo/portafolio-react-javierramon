@@ -2,8 +2,6 @@ import React from "react"
 import "./Home.css"
 import hero from "../pic/hero.png"
 import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -47,12 +45,7 @@ const Home = () => {
                 <button className='btn_shadow'>
                   <img src={skill1} alt='' />
                 </button>
-                <button className='btn_shadow'>
-                  <img src={skill2} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                  <img src={skill3} alt='' />
-                </button>
+                
               </div>
             </div>
           </div>
